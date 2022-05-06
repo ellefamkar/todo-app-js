@@ -39,7 +39,7 @@ In his project you should be able to:
 
 ### Links
 
-- Live Site URL: [3-column-preview-card-component](https://ellefamkar.github.io/todo-app-js)
+- Live Site URL: [To-do web application](https://ellefamkar.github.io/todo-app-js)
 
 ## My process
 
