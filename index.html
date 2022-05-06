@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Elle Famkar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- title -->
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+    <title>todo App</title>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="dashboard-left">
+            <div>
+                <lord-icon src="https://cdn.lordicon.com/nocovwne.json" trigger="loop"
+                    colors="primary:#ffffff,secondary:#eaeaea" style="width:150px;height:150px; text-align: center;">
+                </lord-icon>
+            </div>
+            <div class="left-header">
+                <h3 class="shiny-text">Create a task!</h3>
+            </div>
+            <div class="left-task">
+                <div class="task-info task-item">
+                    <input type="text" class="task-info-input task-input" placeholder='My new task is...'>
+                </div>
+                <button class="task-add">Add Task</button>
+            </div>
+        </div>
+        <div class="dashboard-right">
+            <div class="right-list">
+                <h3 class="right-list-h3">Check out your tasks here</h3>
+                <div class="right-list-buttons">
+                    <button class="all" value="all">All</button>
+                    <button class="compeleted" value="compeleted">completed</button>
+                    <button class="uncompleted" value="uncompleted">uncompleted</button>
+                </div>
+                <div class="list-flex"></div>
+                <div class="change-color">
+                    <button class="change-color-btn change-color-blue"></button>
+                    <button class="change-color-btn change-color-red"></button>
+                    <button class="change-color-btn change-color-green"></button>
+                    <button class="change-color-btn change-color-yellow"></button>
+                    <button class="change-color-btn change-color-white"></button>
+                </div>
+            </div>
+            <span class="verify">
+                <span class="verify-question">Sure you want to delete this task?</span>
+                <span class="verify-btns">
+                    <span class="verify-btn" data-delete="yes">Yes</span>
+                    <span class="verify-btn" data-delete="No">No</span>
+                </span>
+
+            </span>
+            
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
